@@ -1,57 +1,49 @@
-import React from 'react'
-import './experience.css'
-import {BsPatchCheckFill} from "react-icons/bs"
+import React from "react";
 
-const Experience = () => {
+import styles from "./Experience.module.css";
+import skills from "../../data/skills.json";
+import history from "../../data/history.json";
+import { getImageUrl } from "../../utils";
+
+export const Experience = () => {
   return (
-    <section id="experience">Experience
-    <h5>What Skills I have</h5>
-    <h2>My Experience</h2>
-    <div className='container experience__container'>
-      <div className="experience__frontend">
-        <h3>FrontEnd Development</h3>
-        <div className="experience__content">
-          <article className='experience__details'>
-             <BsPatchCheckFill/>
-             <h4>HTML</h4>
-             <small className='text-light'>Experienced</small>
-          </article>
-          <article className='experience__details'>
-             <BsPatchCheckFill/>
-             <h4>CSS</h4>
-             <small className='text-light'>Intermediate</small>
-          </article>
-          <article className='experience__details'>
-             <BsPatchCheckFill/>
-             <h4>Javascript</h4>
-             <small className='text-light'>Experienced</small>
-          </article>
-          <article className='experience__details'>
-             <BsPatchCheckFill/>
-             <h4>React</h4>
-             <small className='text-light'>Experienced</small>
-          </article>
+    <section className={styles.container} id="experience">
+      <h2 className={styles.title}>Experience</h2>
+      <div className={styles.content}>
+        <div className={styles.skills}>
+          {skills.map((skill, id) => {
+            return (
+              <div key={id} className={styles.skill}>
+                <div className={styles.skillImageContainer}>
+                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                </div>
+                <p>{skill.title}</p>
+              </div>
+            );
+          })}
         </div>
+        <ul className={styles.history}>
+          {history.map((historyItem, id) => {
+            return (
+              <li key={id} className={styles.historyItem}>
+                <img
+                  src={getImageUrl(historyItem.imageSrc)}
+                  alt={`${historyItem.organisation} Logo`}
+                />
+                <div className={styles.historyItemDetails}>
+                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                  <ul>
+                    {historyItem.experiences.map((experience, id) => {
+                      return <li key={id}>{experience}</li>;
+                    })}
+                  </ul>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
       </div>
-      <div className="experience__frontend">
-        <h3>BackEnd Development</h3>
-        <div className="experience__content">
-          <article className='experience__details'>
-             <BsPatchCheckFill/>
-             <h4>MySQL</h4>
-             <small className='text-light'>Experienced</small>
-          </article>
-          <article className='experience__details'>
-             <BsPatchCheckFill/>
-             <h4>NodeJs</h4>
-             <small className='text-light'>Intermediate</small>
-          </article>
-        </div>
-      </div>
-     </div>
-
     </section>
-  )
-}
-
-export default Experience
+  );
+};

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Python",
+    "imageSrc": "skills/python-48.png"
+  },
+  {
+    "title": "Machine Learning",
+    "imageSrc": "skills/ml.png"
+  },
+  {
+    "title": "Data Visualization",
+    "imageSrc": "skills/visualization.png"
+  },
+  {
+    "title": "React.js",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "Tableau",
+    "imageSrc": "skills/tableau.png"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Master's Student, Data Science",
+    "organisation": "Northwestern University",
+    "startDate": "March 2025",
+    "endDate": "Present",
+    "imageSrc": "history/northwestern.png",
+    "experiences": [
+      "Working on projects involving machine learning and data visualization.",
+      "Building predictive models and analyzing large datasets."
+    ]
+  },
+  {
+    "role": "UI/Web Developer",
+    "organisation": "Infosys",
+    "startDate": "2018",
+    "endDate": "2023",
+    "imageSrc": "history/infosys.png",
+    "experiences": [
+      "Developed and maintained frontend applications using React.js.",
+      "Worked on the 'Retail In Stock' project to optimize inventory tracking."
+    ]
+  },
+  {
+    "role": "Data Science Intern",
+    "organisation": "Kaggle Competitions & Freelance",
+    "startDate": "2024",
+    "endDate": "Present",
+    "imageSrc": "history/kaggle.png",
+    "experiences": [
+      "Conducted exploratory data analysis (EDA) and built machine learning models.",
+      "Created interactive dashboards using Tableau and Matplotlib."
+    ]
+  }
+]
