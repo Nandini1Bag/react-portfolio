@@ -4,7 +4,7 @@
     "organisation": "Northwestern University",
     "startDate": "March 2025",
     "endDate": "Present",
-    "imageSrc": "history/northwestern.png",
+    "imageSrc": "history/North.jpeg",
     "experiences": [
       "Working on projects involving machine learning and data visualization.",
       "Building predictive models and analyzing large datasets."
@@ -13,23 +13,26 @@
   {
     "role": "UI/Web Developer",
     "organisation": "Infosys",
-    "startDate": "2018",
-    "endDate": "2023",
-    "imageSrc": "history/infosys.png",
+    "startDate": "2019",
+    "endDate": "2020",
+    "imageSrc": "history/Infosys.png",
     "experiences": [
       "Developed and maintained frontend applications using React.js.",
       "Worked on the 'Retail In Stock' project to optimize inventory tracking."
     ]
   },
   {
-    "role": "Data Science Intern",
-    "organisation": "Kaggle Competitions & Freelance",
-    "startDate": "2024",
-    "endDate": "Present",
-    "imageSrc": "history/kaggle.png",
+    "role": "UI/Web Developer",
+    "organisation": "Aabsys Pvt Lmt",
+    "startDate": "2014",
+    "endDate": "2019",
+    "imageSrc": "history/Aabsys1.jpeg",
     "experiences": [
-      "Conducted exploratory data analysis (EDA) and built machine learning models.",
-      "Created interactive dashboards using Tableau and Matplotlib."
+      "Developed and maintained frontend applications using React.js.",
+      "Worked on the 'Retail In Stock' project to optimize inventory tracking."
     ]
   }
+
 ]
+
+

@@ -5,22 +5,22 @@
   },
   {
     "title": "Machine Learning",
-    "imageSrc": "skills/ml.png"
+    "imageSrc": "skills/machine-learning.png"
   },
   {
     "title": "Data Visualization",
-    "imageSrc": "skills/visualization.png"
-  },
-  {
-    "title": "React.js",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/EDA.png"
   },
   {
     "title": "SQL",
     "imageSrc": "skills/sql.png"
   },
   {
-    "title": "Tableau",
-    "imageSrc": "skills/tableau.png"
+    "title": "React.js",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/js.png"
   }
 ]
