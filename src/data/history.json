@@ -18,7 +18,7 @@
     "imageSrc": "history/Infosys.png",
     "experiences": [
       "Developed and maintained frontend applications using React.js.",
-      "Worked on the 'Retail In Stock' project to optimize inventory tracking."
+      "Demonstrated proficiency in unit testing with Jest and React Testing Library, ensuring code quality and stability."
     ]
   },
   {
@@ -28,8 +28,8 @@
     "endDate": "2019",
     "imageSrc": "history/Aabsys1.jpeg",
     "experiences": [
-      "Developed and maintained frontend applications using React.js.",
-      "Worked on the 'Retail In Stock' project to optimize inventory tracking."
+      "Developed and maintained client and internal websites using HTML5, CSS3, JavaScript, and React.js.",
+      "Collaborated with the back-end team to design and implement REST APIs for seamless front-end and back-end integration."
     ]
   }
 

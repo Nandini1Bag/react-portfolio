@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Nandini</h1>
         <p className={styles.description}>
-          I'm a Data Science Master's student at Northwestern University with experience in Python, Machine Learning, and Data Visualization. I enjoy building data-driven solutions and dashboards.Let’s connect!
+          I'm a Data Science Master's student at Northwestern University with experience in UI, Python, Machine Learning, and Data Visualization. I enjoy building data-driven solutions and dashboards.Let’s connect!
        </p>
 
         <a href="mailto:nini.nandini@email.com" className={styles.contactBtn}>

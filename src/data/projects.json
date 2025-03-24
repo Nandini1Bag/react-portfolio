@@ -4,7 +4,7 @@
     "imageSrc": "projects/project.png",
     "description": "Analyzed Netflix's content library using EDA to uncover trends in genres, content releases, and top contributors.",
     "skills": ["Python", "pandas", "numpy","Matplotlib","seaborn"],
-    "demo": "https://www.kaggle.com/nandinibag",
+    "demo": "https://www.kaggle.com/code/nandinibag/netflix-data-analysis",
     "source": "https://github.com/Nandini1Bag/Python_Excercise/tree/main/EDA/Netflix"
   }
 ]

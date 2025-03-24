@@ -23,7 +23,7 @@ export const About = () => {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
+          {/* <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
             <h3>Machine Learning & Analytics</h3>
@@ -31,7 +31,7 @@ export const About = () => {
                 Experienced in building predictive models and performing data analysis using scikit-learn, TensorFlow, and Tableau.
               </p>
             </div>
-          </li>
+          </li> */}
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
